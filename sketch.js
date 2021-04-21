@@ -91,9 +91,9 @@ function setup() {
 }
 
 function draw() {
-  if (backdrop) {
+ 
     background(backdrop);
-  }
+  
 
   if (gamestate === "playing") {
     Engine.update(engine);
